@@ -13,5 +13,5 @@ clf = LogisticRegression()
 clf.fit(X, y)
 
 # %%
-# import joblib
-# joblib.dump(clf, "clf.pkl")
+import joblib
+joblib.dump(clf, "clf.pkl")
