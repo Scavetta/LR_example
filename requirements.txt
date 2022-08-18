@@ -9,7 +9,7 @@ beautifulsoup4==4.11.1
 bleach==5.0.1
 blinker==1.5
 cachetools==5.2.0
-certifi @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_884c889c-96af-444f-bd6d-daddb5e9a462ykj3l5n_/croots/recipe/certifi_1655968814730/work/certifi
+certifi==2022.6.15
 cffi==1.15.1
 charset-normalizer==2.1.0
 click==8.1.3
@@ -30,7 +30,7 @@ ipython-genutils==0.2.0
 ipywidgets==7.7.1
 jedi==0.18.1
 Jinja2==3.1.2
-joblib @ file:///tmp/build/80754af9/joblib_1635411271373/work
+joblib==1.1.0
 jsonschema==4.7.2
 jupyter-client==7.3.4
 jupyter-core==4.11.1
@@ -44,7 +44,7 @@ nbconvert==6.5.0
 nbformat==5.4.0
 nest-asyncio==1.5.5
 notebook==6.4.12
-numpy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_5f5504oaep/croots/recipe/numpy_and_numpy_base_1659432718638/work
+numpy==1.23.1
 packaging==21.3
 pandas==1.4.3
 pandocfilters==1.5.0
@@ -52,6 +52,7 @@ parso==0.8.3
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==9.2.0
+pip==22.2.2
 plotly==5.9.0
 prometheus-client==0.14.1
 prompt-toolkit==3.0.30
@@ -72,10 +73,11 @@ pytz-deprecation-shim==0.1.0.post0
 pyzmq==23.2.0
 requests==2.28.1
 rich==12.5.1
-scikit-learn @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c0267ca0-12ff-4800-bd07-7f998adef27bh_cts5yf/croots/recipe/scikit-learn_1658419411147/work
-scipy @ file:///Users/ktietz/ci_310/scipy_1644255974431/work
+scikit-learn==1.1.1
+scipy==1.7.3
 semver==2.13.0
 Send2Trash==1.8.0
+setuptools==61.2.0
 six==1.16.0
 smmap==5.0.0
 soupsieve==2.3.2.post1
@@ -83,7 +85,7 @@ stack-data==0.3.0
 streamlit==1.11.0
 tenacity==8.0.1
 terminado==0.15.0
-threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work
+threadpoolctl==2.2.0
 tinycss2==1.1.1
 toml==0.10.2
 toolz==0.12.0
@@ -97,5 +99,6 @@ validators==0.20.0
 watchdog==2.1.9
 wcwidth==0.2.5
 webencodings==0.5.1
+wheel==0.37.1
 widgetsnbextension==3.6.1
 zipp==3.8.1
