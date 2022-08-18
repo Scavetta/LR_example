@@ -24,7 +24,7 @@ if st.button("Submit"):
     
     # Store inputs into dataframe
     X = pd.DataFrame([[height, weight, eyes]], 
-                     columns = ["Height", "Weight", "Eyes"])
+                     columns = ["Height", "Weight", "Eye"])
     X = X.replace(["Brown", "Blue"], [1, 0])
     
     # Get prediction
