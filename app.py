@@ -6,12 +6,12 @@ import joblib
 st.header("Streamlit Machine Learning App")
 
 # Input bar 1
-height = st.number_input("Enter Height")
-# height = st.slider("Enter Height", 20, 90, 35)
+# height = st.number_input("Enter Height")
+height = st.slider("Enter Height", 75, 95, 75)
 
 # Input bar 2
-weight = st.number_input("Enter Weight")
-# weight = st.slider("Enter Weight", 10, 40, 15)
+# weight = st.number_input("Enter Weight")
+weight = st.slider("Enter Weight", 35, 50, 35)
 
 # Dropdown input
 eyes = st.selectbox("Select Eye Colour", ("Blue", "Brown"))
